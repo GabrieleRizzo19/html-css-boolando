@@ -32,6 +32,7 @@ a{
 .colorWhite{ color: white; }
 
 .bgOrangeZalando{ background-color: #fa691f; }
+.bgBlackZalando{ background-color: #1a1a1a; }
 
 
 /*******************
@@ -42,7 +43,7 @@ header{
     
 }
 
-nav{
+header nav{
     min-height: 55px;
 }
 
@@ -61,6 +62,7 @@ nav i{
 
 .cardContainer{
     margin-top: 50px;
+    margin-bottom: 50px;
     min-height: 1500px;
     background-color: red;
     flex-wrap: wrap;
@@ -71,4 +73,22 @@ nav i{
     width: calc( 33% - 15px);
     min-height: 600px;
     background-color: greenyellow;
+}
+
+
+/*******************
+***    FOOTER    ***
+********************/
+
+footer nav{
+    min-height: 90px;
+}
+
+footer a{
+    font-size: 10px;
+}
+
+#socialLink p{
+    font-size: 10px;
+    margin-bottom: 5px;
 }
