@@ -29,15 +29,9 @@ a:hover{
     text-decoration: underline;
 }
 
-i{
-    padding: 8px;
-    border-radius: 50%;
-}
-
-
-
-i:hover{
-    background-color: red;
+nav i:hover{
+    transform: scale(2);
+    transition: 0.2s;
 }
 
 .relative{ position: relative;}
@@ -49,10 +43,12 @@ i:hover{
 
 .colorWhite{ color: white; }
 
-.bgOrangeZalando{ background-color: #fa691f; }
+.bgOrangeZalando{ background-color: #ff6900; }
 .bgBlackZalando{ background-color: #1a1a1a; }
 
-
+nav i{
+    padding-right: 5px;
+}
 
 /*******************
 ***    HEADER    ***
