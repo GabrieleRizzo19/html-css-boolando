@@ -25,23 +25,25 @@ a{
     color: inherit;
 }
 
-.marginZeroAuto{
-    margin: 0 auto;
-}
+.maxW1100{ max-width: 1100px; }
+
+.marginZeroAuto{ margin: 0 auto; }
 
 .colorWhite{ color: white; }
+
+.bgOrangeZalando{ background-color: #fa691f; }
+
 
 /*******************
 ***    HEADER    ***
 ********************/
 
 header{
-    background-color: #fa691f;
+    
 }
 
 nav{
     min-height: 55px;
-    max-width: 1100px;
 }
 
 nav img{
@@ -50,4 +52,23 @@ nav img{
 
 nav i{
     padding-right: 5px;
+}
+
+
+/*******************
+****    MAIN    ****
+********************/
+
+.cardContainer{
+    margin-top: 50px;
+    min-height: 1500px;
+    background-color: red;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.card{
+    width: calc( 33% - 15px);
+    min-height: 600px;
+    background-color: greenyellow;
 }
