@@ -29,6 +29,9 @@ a:hover{
     text-decoration: underline;
 }
 
+.relative{ position: relative;}
+.absolute{ position: absolute; }
+
 .maxW1100{ max-width: 1100px; }
 
 .marginZeroAuto{ margin: 0 auto; }
@@ -38,6 +41,9 @@ a:hover{
 .bgOrangeZalando{ background-color: #fa691f; }
 .bgBlackZalando{ background-color: #1a1a1a; }
 
+nav i{
+    padding-right: 5px;
+}
 
 /*******************
 ***    HEADER    ***
@@ -55,9 +61,7 @@ nav img{
     height: 30px;
 }
 
-i{
-    padding-right: 5px;
-}
+
 
 
 /*******************
@@ -68,7 +72,7 @@ i{
     margin-top: 50px;
     margin-bottom: 50px;
     min-height: 1300px;
-    background-color: red;
+    /* background-color: red; */
     flex-wrap: wrap;
     padding: 0 10px;
     align-content: center;
@@ -76,7 +80,7 @@ i{
 
 .card{
     width: calc( 33% - 10px);
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     margin-bottom: 50px;
 }
 
@@ -106,6 +110,18 @@ i{
     text-decoration: line-through;
 }
 
+.cardPreferred{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    top: 10px;
+    right: 0px;
+}
+
+.cardPreferred:hover{
+    color: red;
+}
 /*******************
 ***    FOOTER    ***
 ********************/
