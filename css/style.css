@@ -25,6 +25,10 @@ a{
     color: inherit;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .maxW1100{ max-width: 1100px; }
 
 .marginZeroAuto{ margin: 0 auto; }
@@ -51,7 +55,7 @@ nav img{
     height: 30px;
 }
 
-nav i{
+i{
     padding-right: 5px;
 }
 
@@ -63,18 +67,44 @@ nav i{
 .cardContainer{
     margin-top: 50px;
     margin-bottom: 50px;
-    min-height: 1500px;
+    min-height: 1300px;
     background-color: red;
     flex-wrap: wrap;
     padding: 0 10px;
+    align-content: center;
 }
 
 .card{
-    width: calc( 33% - 15px);
-    min-height: 600px;
+    width: calc( 33% - 10px);
     background-color: greenyellow;
+    margin-bottom: 50px;
 }
 
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.brand{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+
+.product{
+    font-size: 20px;
+}
+
+.actualPrice{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.originalPrice{
+    font-size: 14px;
+    text-decoration: line-through;
+}
 
 /*******************
 ***    FOOTER    ***
@@ -89,6 +119,7 @@ footer a{
 }
 
 #socialLink p{
-    font-size: 10px;
+    font-weight: bold;
+    font-size: 12px;
     margin-bottom: 5px;
 }
